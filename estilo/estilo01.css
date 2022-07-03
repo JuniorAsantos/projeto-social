@@ -48,13 +48,22 @@ section#redes-sociais {
     position: relative;
     display:block;
     top: 70px;
-    right: 100px;
+    right: 30px;
     float: right;
-    width: 100px;
+    width: 50px;
     height: 500px;
 }
 section#redes-sociais img {
-    width: 90px;
-    border-radius: 50px;
-    margin: 2px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255,0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.623);
+    transition: transform .3s, border 1s;
 }
